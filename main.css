@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 280px;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px) ;
+    border: 7px solid rgba(255, 255, 255,.2);
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.intro-text{
+    width: 260px;
+    height: 60px;
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
