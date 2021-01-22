@@ -28,3 +28,92 @@
     font-size: 1.2rem;
     color: #fff;
 }
+.intro-text{
+ width: 260px;
+ height: 260px;
+}    
+.name-input{
+display: flex;
+}
+.name-input input{
+width: 130px;
+height: 50px;
+padding: 5px;
+outline: none;
+border: 5px solid #dbdbdb;
+padding: 9rem;
+}
+#inputOne input{
+border-radius: 3px 0 0 3px;
+}
+#inputTwo input{
+border-radius: 0 3px 3px 0;
+}
+input::placeholder{
+color: bfbfbf;
+}
+.email-input{
+display: flex;
+flex-direction: column;
+}
+.email-input input{
+height: 50px;
+outline: none;
+border: 5px solid #dbdbdb;
+border-radius: 3px;
+padding: 9rem;
+}
+label{
+padding: 10px 0 0 0;
+font-size: 9rem;
+color: #fff;
+}
+.btn-box{
+height: 100px;
+}
+.btn-box p{
+font-size: 6rem;
+padding: 1rem 0;
+}
+.btn-box button{
+width: 260px;
+height: 45px;
+font-size: 1rem;
+border-radius: 2px;
+border: none;
+outline: none;
+background: #ba54eb;
+color: #fff;
+}
+.other-content{
+width: 260px;
+height: 90px;
+}
+.other-content p{
+text-align: center;
+padding: 2rem;
+font-size: 6rem;
+}
+.links{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 5rem;
+}
+.links a{
+display: block;
+width: 120px;
+height: 50px;
+text-decoration: none;
+line-height: 50px;
+font-size: 6rem;
+text-align: center;
+border-radius: 3px;
+color: #fff;
+}
+.links a:nth-child(1){
+background: #1da1f2;
+}
+.links a:nth-child(2){
+background: #26242e;
+}
